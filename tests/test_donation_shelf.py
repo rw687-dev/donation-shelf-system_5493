@@ -1,6 +1,11 @@
-import pytest
-from src.donation_shelf import DonationShelf
+import sys
+from pathlib import Path
 
+import pytest
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+
+from donation_shelf import DonationShelf
 
 def test_add_donation():
     shelf = DonationShelf()
