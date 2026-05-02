@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-The Donation Shelf System is a small Python application inspired by a physical RFID-based donation shelf. It focuses on the software workflow for adding donated items, checking whether they are available, and recording when a receiver picks them up.
+The Donation Shelf System is a Python project that models the core logic of a student donation shelf. It allows a donor to register an item, stores the donation information, and lets a receiver pick up the item later. When an item is picked up, the system generates a donor-facing notification message.
 
 This project was inspired by a physical donation shelf concept using RFID tags, buttons, and email notifications. The Python version focuses on the core software logic behind that system: storing donations, checking item availability, preventing duplicate pickups, and generating notification messages.
 
